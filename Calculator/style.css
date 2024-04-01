@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, black, grey);
+}
+.calc{
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    display: inline-block;
+    border-radius:20px ;
+}
+input {
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(231, 224, 224, 0.774);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: antiquewhite;
+}
+input ::placeholder{
+    color: antiquewhite;
+}
+button {
+    font-size: 30px;
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 3px grey, -5px -5px 3px white;
+    background-color: rgb(145, 183, 183);
+    outline: none;
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: inset 5px 5px 3px  grey, inset -5px -5px 3px white;
+}
+.equalbtn{
+    background-color: rgba(134, 34, 34, 0.877);
+}
+.operator{
+    background-color: greenyellow;
+}
